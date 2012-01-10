@@ -1,12 +1,12 @@
 Word List Generator
 ===================
 
-  wlg: Word List Generator 
-  version: 0.5
-  coded by white_sheep
-  
-  site: http://www.marcorondini.eu - http://www.ihteam.net
-  twitter: http://www.twitter.com/white__sheep
+	wlg: Word List Generator 
+	version: 0.5
+	coded by white_sheep
+
+	site: http://www.marcorondini.eu - http://www.ihteam.net
+	twitter: http://www.twitter.com/white__sheep
 
 
 ___________
@@ -22,9 +22,9 @@ Build:
 
 
 	• Linux:
-		`make`
+		make
 	• Mac Osx
-		`make -f Makefile_osx`
+		make -f Makefile_osx
 
 ________________
 Allowed options:
@@ -62,24 +62,24 @@ Examples:
 
 	extract function: return iteration number 
   
-  	`wlg -e ciao
-  	15669092`
+  	wlg -e ciao
+  	15669092
   
   	compat function: return string about iteration number
   
-  	`wlg -c 15669092
-  	ciao`
+  	wlg -c 15669092
+  	ciao
   
   	gen function: generate wordlist
   		• using word index
-  			`wlg -g -o -w ciao` ( infinite wordlist creation )
-  			`wlg -g -o -w ciao -W ciaoc` ( wordlist between ciao and ciaoc )
+  			wlg -g -o -w ciao ( infinite wordlist creation )
+  			wlg -g -o -w ciao -W ciaoc ( wordlist between ciao and ciaoc )
   		• using iteration index
-  			`wlg -g -n -i 10000000000000000000` ( infinite wordlist creation )
-  			`wlg -g -n -i 100 -I 123123123123`( wordlist between 100 and 123123123123 iteration number )
+  			wlg -g -n -i 10000000000000000000 ( infinite wordlist creation )
+  			wlg -g -n -i 100 -I 123123123123( wordlist between 100 and 123123123123 iteration number )
   		• using word length
-  			`wlg -g -l -m 1` ( infinite wordlist creation )
-  			`wlg -g -l -m 3 -M 8` ( wordlist with min length 1 and max length 8 )
+  			wlg -g -l -m 1 ( infinite wordlist creation )
+  			wlg -g -l -m 3 -M 8 ( wordlist with min length 1 and max length 8 )
 
 
 _________
@@ -87,7 +87,7 @@ Features:
 
 
   	Using file for output 
-  		`wlg -g -l -m 1 -f wl.txt`
+  		wlg -g -l -m 1 -f wl.txt
   	
 	Set charset
-  		`wlg -g -l -m 1 -C 0123456789 -f wl.txt`
+  		wlg -g -l -m 1 -C 0123456789 -f wl.txt
