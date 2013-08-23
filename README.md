@@ -5,7 +5,7 @@ Word List Generator
 	version: 0.5
 	coded by white_sheep
 
-	site: http://www.marcorondini.eu - http://www.ihteam.net
+	site: http://www.marcorondini.eu
 	twitter: http://www.twitter.com/white__sheep
 
 
